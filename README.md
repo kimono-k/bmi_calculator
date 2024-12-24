@@ -1,40 +1,43 @@
-BMICalculator
+# BMICalculator
 
-A Flutter-based Body Mass Index (BMI) calculator app that helps users calculate their BMI and assess their health based on the result. This app uses a modern dark-themed design and a customizable UI.
+https://github.com/user-attachments/assets/87389509-17e3-4ae4-9d0a-fdd599c65ac2
 
-Features
+A Flutter-based Body Mass Index (BMI) calculator app that helps users calculate their BMI and assess their health based on the result. This app features a modern dark-themed design and a customizable UI.
 
-Dark Theme: Customized dark theme for a visually appealing and modern look.
+## Features
 
-Responsive UI: Designed to work seamlessly on both iOS and Android devices.
+- **Dark Theme**: Customized dark theme for a visually appealing and modern look.
+- **Responsive UI**: Designed to work seamlessly on both iOS and Android devices.
+- **Easy Navigation**: Navigate between screens using simple gestures and buttons.
 
-Easy Navigation: Navigate between screens using simple gestures and buttons.
+## Screens
 
-Screens
+- **Input Page**: The main screen where users can input their weight, height, and other parameters.
+- **Result Page**: Displays the calculated BMI and health assessment.
 
-Input Page: The main screen where users can input their weight, height, and other parameters.
-
-Result Page: Displays the calculated BMI and health assessment.
-
-Installation
+## Installation
 
 To run this project locally, follow these steps:
 
-Clone the repository:
-
+### Clone the repository:
+```bash
 git clone https://github.com/your-username/bmi-calculator.git
 cd bmi-calculator
+```
 
-Install dependencies:
-
+### Install dependencies:
+```bash
 flutter pub get
+```
 
-Run the app:
-
+### Run the app:
+```bash
 flutter run
+```
 
-File Structure
+## File Structure
 
+```
 BMICalculator/
 ├── lib/
 │   ├── constants.dart        # Contains app-wide constants like colors and styles
@@ -44,55 +47,47 @@ BMICalculator/
 │   │   ├── result_page.dart # Screen for displaying results
 │   └── widgets/             # Reusable widget components
 └── pubspec.yaml             # Project configuration file
+```
 
-Customization
+## Customization
 
-Theme Customization
+### Theme Customization
 
-AppBar Theme:
+**AppBar Theme:**
+- **Background Color**: `Color(0xFF0A0E21)`
+- **Title Text Style**: White text with font size `20.0`
 
-Background Color: Color(0xFF0A0E21)
+**Scaffold Background**: `Color(0xFF0A0E21)`
 
-Title Text Style: White text with font size 20.0
+**Floating Action Button:**
+- **Background Color**: `Colors.cyanAccent`
+- **Foreground Color**: `Colors.black`
+- **Shape**: Rounded with `40.0` corner radius
 
-Scaffold Background: Color(0xFF0A0E21)
+## Adding New Features
 
-Floating Action Button:
+1. Add new screens under `lib/screens`.
+2. Create reusable widgets under `lib/widgets`.
+3. Update navigation in `lib/main.dart`.
 
-Background Color: Colors.cyanAccent
-
-Foreground Color: Colors.black
-
-Shape: Rounded with 40.0 corner radius
-
-Adding New Features
-
-Add new screens under lib/screens.
-
-Create reusable widgets under lib/widgets.
-
-Update navigation in lib/main.dart.
-
-Dependencies
+## Dependencies
 
 This app uses the following Flutter dependencies:
 
-flutter/material.dart: For creating UI components.
+- `flutter/material.dart`: For creating UI components.
 
-Contribution
+## Contribution
 
 Contributions are welcome! To contribute:
 
-Fork the repository.
+1. Fork the repository.
+2. Create a new branch for your feature/bugfix.
+3. Submit a pull request.
 
-Create a new branch for your feature/bugfix.
+## License
 
-Submit a pull request.
+This project is licensed under the MIT License. See the `LICENSE` file for details.
 
-License
+## Author
 
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Author
-
-Created by [Your Name]. Feel free to reach out for feedback or collaboration!
+Created by Kevin Narain. Feel free to reach out for feedback or collaboration!
