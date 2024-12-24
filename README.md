@@ -34,3 +34,5 @@ final Color colour;
 # Classes
 - Wil je gescheiden houden in dart files
 - Separation of concerns
+
+# Composition over Inheritance
