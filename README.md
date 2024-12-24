@@ -1,41 +1,98 @@
-# Flutter Themes
--
+BMICalculator
 
-# ColorZilla
-- gets rgb of elements
-www.colorzilla.com
+A Flutter-based Body Mass Index (BMI) calculator app that helps users calculate their BMI and assess their health based on the result. This app uses a modern dark-themed design and a customizable UI.
 
-# Import stateful widget
-2 methods
-import 'package:flutter/material.dart';
-import 'input_page.dart';
+Features
 
-# Modify widget_test.dart
-- to appName
+Dark Theme: Customized dark theme for a visually appealing and modern look.
 
-# Constructor template
-// Constructor
-ReusableCard({required this.colour});
+Responsive UI: Designed to work seamlessly on both iOS and Android devices.
 
-final Color colour;
-}
+Easy Navigation: Navigate between screens using simple gestures and buttons.
 
-# Columns with rows
-- Column is a big cake
-- Rows is slicing the cake in smaller pieces
-- Use Flutter outline to abstract your code
+Screens
 
-# Stateless widgets can´t be changed
--
+Input Page: The main screen where users can input their weight, height, and other parameters.
 
-# Extract widget Flutter Outline
-- Right mouse click, refactor
+Result Page: Displays the calculated BMI and health assessment.
 
-# Routes
-- To get a page in an app
+Installation
 
-# Classes
-- Wil je gescheiden houden in dart files
-- Separation of concerns
+To run this project locally, follow these steps:
 
-# Composition over Inheritance
+Clone the repository:
+
+git clone https://github.com/your-username/bmi-calculator.git
+cd bmi-calculator
+
+Install dependencies:
+
+flutter pub get
+
+Run the app:
+
+flutter run
+
+File Structure
+
+BMICalculator/
+├── lib/
+│   ├── constants.dart        # Contains app-wide constants like colors and styles
+│   ├── main.dart            # Entry point of the application
+│   ├── screens/
+│   │   ├── input_page.dart  # Screen for user inputs
+│   │   ├── result_page.dart # Screen for displaying results
+│   └── widgets/             # Reusable widget components
+└── pubspec.yaml             # Project configuration file
+
+Customization
+
+Theme Customization
+
+AppBar Theme:
+
+Background Color: Color(0xFF0A0E21)
+
+Title Text Style: White text with font size 20.0
+
+Scaffold Background: Color(0xFF0A0E21)
+
+Floating Action Button:
+
+Background Color: Colors.cyanAccent
+
+Foreground Color: Colors.black
+
+Shape: Rounded with 40.0 corner radius
+
+Adding New Features
+
+Add new screens under lib/screens.
+
+Create reusable widgets under lib/widgets.
+
+Update navigation in lib/main.dart.
+
+Dependencies
+
+This app uses the following Flutter dependencies:
+
+flutter/material.dart: For creating UI components.
+
+Contribution
+
+Contributions are welcome! To contribute:
+
+Fork the repository.
+
+Create a new branch for your feature/bugfix.
+
+Submit a pull request.
+
+License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Author
+
+Created by [Your Name]. Feel free to reach out for feedback or collaboration!
