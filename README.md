@@ -31,6 +31,9 @@ final Color colour;
 # Extract widget Flutter Outline
 - Right mouse click, refactor
 
+# Routes
+- To get a page in an app
+
 # Classes
 - Wil je gescheiden houden in dart files
 - Separation of concerns
